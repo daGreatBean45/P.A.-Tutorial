@@ -51,6 +51,8 @@ class Tutorial2 extends StatelessWidget {
                       ),
                     ),
                   ),
+
+                  //shadow of container
                   Container(
                     margin: EdgeInsets.fromLTRB(0, 0, 0, 46),
                     child: Align(
@@ -61,7 +63,8 @@ class Tutorial2 extends StatelessWidget {
                             BoxShadow(
                               color: Color(0x33000000),
                               offset: Offset(0, 0),
-                              blurRadius: 6.5767579079,
+                              blurRadius: 16,
+                              spreadRadius: -10,
                             ),
                           ],
                         ),
@@ -73,7 +76,7 @@ class Tutorial2 extends StatelessWidget {
                             width: 232.7,
                             height: 451,
                             child: SvgPicture.asset(
-                              'assets/vectors/vector_196_x2.svg',
+                              'assets/vectors/vector_397_x2.svg',
                             ),
                           ),
                         ),
