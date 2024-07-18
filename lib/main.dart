@@ -127,7 +127,7 @@ class MyApp extends StatelessWidget {
         // body: ReceiptCapture1(),
         // body: Transaction(),
         // body: TransactionQrRc(),
-        body: Tutorial2(),
+        // body: LandingPageTransaction1(),
         // body: Tutorial11(),
         // body: Tutorial2(),
         // body: Tutorial21(),
